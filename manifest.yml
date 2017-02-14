@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MyfirstJ2ee1
+  host: MyfirstJ2ee1
+  disk_quota: 1024M
